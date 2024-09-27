@@ -1,3 +1,6 @@
+body{
+    margin: auto;
+}
 .parent{
     margin: auto;
     width:100%;
@@ -6,8 +9,8 @@
 header{
     float: left;
     display: flex;
-    flex-direction: row;
     width:100%;
+    /* background-color: red; */
 }
 ul li{
     list-style:none;
@@ -16,7 +19,7 @@ ul li{
     margin-top: 50px;
 }
 #one{
-    margin-left: 150px;
+    margin-left: 100px;
 }
 #request{
     margin-left: 150px;
@@ -29,5 +32,45 @@ ul li{
 #request:hover{
     background-color: black;
     color: whitesmoke;
+    font-weight: 600;
+}
+.main-image{
+    width:100%;
+    margin: auto;
+    height:auto;
+    /* background-color: green; */
+
+}
+.main-page{
+    margin: auto;
+    width:100%;
+    height: auto;
+    display: flex;
+}
+#main-heading{
+    margin-top:140px;
+    width:600px;
+    height:200px;
+    font-size: 60px;
+    margin-left: 60px;
+}
+p{
+    width:600px;
+    margin-left:60px;
+    font-size: 20px;    
+}
+#book{
+    margin-left: 60px;
+    border:2px solid black;
+    border-radius:20px;
+    padding: 20px;
+    margin-top:5px;
+    font-weight: 600;
+    background-color: black;
+    color: whitesmoke;
+}
+#book:hover{
+    background-color:whitesmoke;
+    color:black;
     font-weight: 600;
 }
