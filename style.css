@@ -1,0 +1,33 @@
+.parent{
+    margin: auto;
+    width:100%;
+    height: auto;
+}
+header{
+    float: left;
+    display: flex;
+    flex-direction: row;
+    width:100%;
+}
+ul li{
+    list-style:none;
+    float: left;
+    margin-left: 35px;
+    margin-top: 50px;
+}
+#one{
+    margin-left: 150px;
+}
+#request{
+    margin-left: 150px;
+    border:2px solid black;
+    border-radius:20px;
+    padding: 20px;
+    margin-top: 25px;
+    font-weight: 600;
+}
+#request:hover{
+    background-color: black;
+    color: whitesmoke;
+    font-weight: 600;
+}
