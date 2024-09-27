@@ -1,9 +1,9 @@
 body{
-    margin: auto;
+    margin:auto;
 }
 .parent{
     margin: auto;
-    width:100%;
+    width:1260px;
     height: auto;
 }
 header{
@@ -34,14 +34,14 @@ ul li{
     color: whitesmoke;
     font-weight: 600;
 }
-.main-image{
+.main-page{
     width:100%;
     margin: auto;
     height:auto;
     /* background-color: green; */
 
 }
-.main-page{
+.main-image{
     margin: auto;
     width:100%;
     height: auto;
@@ -73,4 +73,9 @@ p{
     background-color:whitesmoke;
     color:black;
     font-weight: 600;
+}
+.sponsor{
+    margin-left: 90px;
+    margin-top: 50px;
+    filter: grayscale(100%);    
 }
