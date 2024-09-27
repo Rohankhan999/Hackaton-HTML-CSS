@@ -79,3 +79,56 @@ p{
     margin-top: 50px;
     filter: grayscale(100%);    
 }
+.our-services{
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    width: 100%;
+}
+#service{
+    font-weight: 800;
+    margin-left: 60px;
+    color: black;
+    margin-top: 100px;
+    font-size: 40px;
+    background-color: rgb(153, 255, 51);
+    border-radius: 5px;
+   /* border: 3px solid red; */
+   height:70px;
+   padding: 7px;
+
+}
+#service-para{
+    margin-top:90px;
+    margin-left:60px;
+    /* border: 3px solid red; */
+    width:730px;
+}
+.properties{
+    display: flex;
+    flex-direction: row;
+}
+.sub-prperties1{
+    width: 600px;
+    height: 250px;
+     border-radius: 20px;
+     background-color: rgb(219, 202, 202);
+    margin-left: 30px;
+    margin-top: 30px;
+    display: flex;
+}
+.sub-prperties2{
+    width: 600px;
+    height: 250px;
+     border-radius: 20px;
+     background-color: rgb(153, 255, 51);
+    margin-left: 20px;
+    margin-top: 30px;
+}
+#properties-headings{
+    font-weight: 800;
+    font-size: 40px;
+    margin-top: 30px;
+    margin-left: 30px;
+    color: black;
+}
